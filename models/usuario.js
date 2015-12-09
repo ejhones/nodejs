@@ -5,6 +5,7 @@ module.exports = function (app) {
     nome: String,
     email: String
   });
+
   var usuario = Schema({
     nome: {type: String, required: true},
     email: {type: String, required: true,
